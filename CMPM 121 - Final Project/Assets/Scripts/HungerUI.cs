@@ -30,11 +30,8 @@ public class HungerUI : MonoBehaviour
     {
 
         hungerPercent = stats.currentHunger / 100f;
-        Debug.Log(hungerPercent);
-        //hungerBar.GetComponent<RectTransform>().position = new Vector2(fullBar * hungerPercent, hungerBar.transform.position.y);
         hungerBar.transform.localPosition = new Vector2 (fullBar * hungerPercent, hungerBar.transform.localPosition.y);
 
     }
-
 
 }
