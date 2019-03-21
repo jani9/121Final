@@ -13,14 +13,12 @@ public class HungerUI : MonoBehaviour
     private int empty = 0;
     private float hungerPercent;
 
-    // Start is called before the first frame update
     void Start()
     {
         hungerBar.transform.localPosition = new Vector2(fullBar, hungerBar.transform.localPosition.y);
         stats = pet.GetComponent<PetStats>();
     }
 
-    // Update is called once per frame
     void Update()
     {
         ChangeHungerBar();

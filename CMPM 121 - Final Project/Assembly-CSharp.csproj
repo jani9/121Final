@@ -61,10 +61,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\ChangeMenu.cs" />
+    <Compile Include="Assets\Scripts\CleanUI.cs" />
     <Compile Include="Assets\Scripts\HappyUI.cs" />
     <Compile Include="Assets\Scripts\HungerUI.cs" />
     <Compile Include="Assets\Scripts\MouseDrag.cs" />
     <Compile Include="Assets\Scripts\PetStats.cs" />
+    <Compile Include="Assets\Scripts\SpawnPoo.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>C:/Users/Jacinda/Documents/GitHub/121Final/CMPM 121 - Final Project/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
